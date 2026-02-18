@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FSD LAB Registration Form</title>
+
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 300px;      /* Increased width */
+    height: 35px;      /* Increased height */
+    font-size: 16px;   /* Bigger text */
+    padding: 5px;
+}
+</style>
+
+<script src="assign3.js" defer></script>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>FSD LAB Registration Form</h2>
+
+    <form onsubmit="return validateForm()">
+        <label>Name:</label><br>
+        <input type="text" id="name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="text" id="email"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" id="password"><br><br>
+
+        <label>Mobile Number:</label><br>
+        <input type="text" id="mobile"><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+</div>
+
+</body>
+</html>
+
+
+
